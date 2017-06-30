@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Github Whitespace Disabler",
+  "version": "1.0",
+  "description": "Force Github to open diff pages without whitespace changes displayed",
+  "icons": {
+    "48": "icons/github-48.png",
+    "64": "icons/github-64.png"
+  },
+  "background": {
+    "scripts": ["interceptor.js"]
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://github.com/*/commit/*",
+    "*://github.com/*/*/pull/*/files"
+  ],
+  "applications": {
+    "gecko": {
+      "id": "maksimovic@outlook.com"
+    }
+  },
+  "author": "Oliver Maksimovic"
+}
