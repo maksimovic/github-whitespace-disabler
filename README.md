@@ -1,4 +1,4 @@
-# github-whitespace-disabler
+# Github Whitespace Disabler
 
 Firefox extension which forces Github to open diff pages with `w=1` appended, so it always displays the changes without whitespace differences.
 
