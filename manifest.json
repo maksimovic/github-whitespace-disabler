@@ -13,6 +13,7 @@
   "permissions": [
     "webRequest",
     "webRequestBlocking",
+    "storage",
     "*://github.com/*/commit/*",
     "*://github.com/*/*/pull/*/files"
   ],
