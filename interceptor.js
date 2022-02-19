@@ -16,7 +16,6 @@ function redirect(requestDetails) {
 browser.webRequest.onBeforeRequest.addListener(
     redirect,
     { urls : [
-        "*://github.com/*/commit/*",
         "*://github.com/*/*/pull/*/files"
     ]
     },
